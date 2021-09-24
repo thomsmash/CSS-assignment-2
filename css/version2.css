@@ -13,7 +13,6 @@ img {
 
 article{
 	display: flex;
-	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
 	color: #000;
@@ -43,18 +42,16 @@ article{
 .photo p{
 	max-width: 600px;
 }
-.text h2 {
-	text-align: center;
-}
+
 
 .text {
-	max-width: 600px;
-	background: #fff;
-	padding: 18px;
+	padding: 10px;
 	font-size: 16px;
 	line-height: 24px;
 	margin-bottom: 20px;
+	max-width: 50%;
 }
+
 
 footer {
 	text-align: center;
